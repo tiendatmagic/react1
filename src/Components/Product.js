@@ -13,7 +13,7 @@ class Product extends Component {
                     <h3>{this.props.name}</h3>
                     <h4>{this.props.price}</h4>
                     <p>
-                        <input type="button" className="btn btn-success" value="OK"></input>
+                        <input type="button" className="btn btn-success" value="Mua"></input>
                     </p>
                     </div>
                     </div>
