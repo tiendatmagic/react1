@@ -5,10 +5,12 @@ import Product from './Components/Product';
 
 class App extends Component {
   //state = {  }
+  /*
   constructor(props){
     super(props);
     this.namee= this.namee.bind(this);
   }
+  */
   clickbutton() {
     alert("hello");
   }
@@ -17,7 +19,7 @@ class App extends Component {
     alert(text);
   }
 
-  namee(){
+  namee =()=>{
     alert(this.refs.nameee.value);
   }
   render() { 
